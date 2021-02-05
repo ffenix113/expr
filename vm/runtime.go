@@ -46,9 +46,12 @@ func fetch(from interface{}, i interface{}) interface{} {
 		}
 
 	case reflect.Struct:
-		value := v.FieldByName(reflect.ValueOf(i).String())
-		if value.IsValid() && value.CanInterface() {
-			return value.Interface()
+		fieldName, ok := i.(string)
+		if ok {
+			value := v.FieldByName(fieldName)
+			if value.IsValid() && value.CanInterface() {
+				return value.Interface()
+			}
 		}
 	}
 
