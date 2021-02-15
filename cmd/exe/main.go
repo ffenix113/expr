@@ -4,16 +4,16 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	"github.com/antonmedv/expr/ast"
+	"github.com/ffenix113/expr/ast"
 	"io/ioutil"
 	"os"
 
-	"github.com/antonmedv/expr"
-	"github.com/antonmedv/expr/checker"
-	"github.com/antonmedv/expr/compiler"
-	"github.com/antonmedv/expr/optimizer"
-	"github.com/antonmedv/expr/parser"
-	"github.com/antonmedv/expr/vm"
+	"github.com/ffenix113/expr"
+	"github.com/ffenix113/expr/checker"
+	"github.com/ffenix113/expr/compiler"
+	"github.com/ffenix113/expr/optimizer"
+	"github.com/ffenix113/expr/parser"
+	"github.com/ffenix113/expr/vm"
 	"github.com/sanity-io/litter"
 )
 

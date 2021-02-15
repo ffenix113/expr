@@ -3,7 +3,7 @@ package lexer
 import (
 	"fmt"
 
-	"github.com/antonmedv/expr/file"
+	"github.com/ffenix113/expr/file"
 )
 
 type Kind string

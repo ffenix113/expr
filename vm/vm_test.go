@@ -6,12 +6,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/checker"
-	"github.com/antonmedv/expr/compiler"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/parser"
-	"github.com/antonmedv/expr/vm"
+	"github.com/ffenix113/expr/ast"
+	"github.com/ffenix113/expr/checker"
+	"github.com/ffenix113/expr/compiler"
+	"github.com/ffenix113/expr/conf"
+	"github.com/ffenix113/expr/parser"
+	"github.com/ffenix113/expr/vm"
 	"github.com/stretchr/testify/require"
 )
 

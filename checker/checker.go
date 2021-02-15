@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/antonmedv/expr/ast"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/file"
-	"github.com/antonmedv/expr/parser"
+	"github.com/ffenix113/expr/ast"
+	"github.com/ffenix113/expr/conf"
+	"github.com/ffenix113/expr/file"
+	"github.com/ffenix113/expr/parser"
 )
 
 var errorType = reflect.TypeOf((*error)(nil)).Elem()
