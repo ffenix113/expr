@@ -20,7 +20,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/antonmedv/expr"
+	"github.com/ffenix113/expr"
 )
 
 func main() {
@@ -51,7 +51,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/antonmedv/expr"
+	"github.com/ffenix113/expr"
 )
 
 type Env struct {
@@ -110,7 +110,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/antonmedv/expr"
+	"github.com/ffenix113/expr"
 )
 
 type Env map[string]interface{}
@@ -144,7 +144,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/antonmedv/expr"
+	"github.com/ffenix113/expr"
 )
 
 func main() {

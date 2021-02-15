@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/antonmedv/expr"
-	"github.com/antonmedv/expr/checker"
-	"github.com/antonmedv/expr/conf"
-	"github.com/antonmedv/expr/parser"
+	"github.com/ffenix113/expr"
+	"github.com/ffenix113/expr/checker"
+	"github.com/ffenix113/expr/conf"
+	"github.com/ffenix113/expr/parser"
 	"github.com/stretchr/testify/assert"
 )
 

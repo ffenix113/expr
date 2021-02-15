@@ -77,7 +77,7 @@ fib(42)
 
 Will be replaced with result of `fib(42)` on compile step. No need to calculate it during runtime.
 
-[ConstExpr Example](https://pkg.go.dev/github.com/antonmedv/expr?tab=doc#ConstExpr)
+[ConstExpr Example](https://pkg.go.dev/github.com/ffenix113/expr?tab=doc#ConstExpr)
 
 ## Reuse VM
 
@@ -89,8 +89,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/antonmedv/expr"
-	"github.com/antonmedv/expr/vm"
+	"github.com/ffenix113/expr"
+	"github.com/ffenix113/expr/vm"
 )
 
 func main() {
